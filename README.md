@@ -1,1 +1,2 @@
-# sample_payment_method
+Exemplo de pagamento com pix com resposta
+em tempo real.
