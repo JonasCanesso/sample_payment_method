@@ -9,7 +9,7 @@ class Pix:
         # criando pagamento na instituição financeira
         bank_payment_id = str(uuid.uuid4())
         # codigo copia e cola
-        hash_payment = f'hash_payment_{bank_payment_id}'
+        hash_payment = f"hash_payment_{bank_payment_id}"
         # qr code
         img = qrcode.make(hash_payment)
         #salvar a imagem como arquivo PNG
